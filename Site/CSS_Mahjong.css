@@ -35,7 +35,7 @@
 }
 
 /*Connection*/
-#text_compteq
+#text_compteq{
 	text-align : center;
 	font-size : 300%;
 	font-style : bold;
@@ -44,14 +44,14 @@
 	width : auto;
 	border-style : solid;
 	border-color : #800000;
-	padding : 1%
+	padding : 1%;
 }
 
 #form1, #form2{
 	background-color : white;
 	border-style : solid;
 	padding : 2%;
-	width : 15%
+	width : 15%;
 }
 
 #retour{
@@ -75,14 +75,24 @@ h2{text-align: center;
 	
 /*Page Regles*/ 
 
-#Reg:first-letter {font-size: 35px;
-    color: #696969;}
+#Reg:first-letter {
+	font-size: 35px;
+    color: #696969;
+	}
 	
-#Reg{text-indent: 35px}
-
-#regle{text-indent: 35px}
+#Reg, #regle {
+	text-indent: 35px;
+	}
 
 #body_regle {	
 	background-image : url('../Image/fondregle.png');
-	background-size : cover
-}
+	background-size : cover;
+	}
+	
+#desc_regle{
+	margin : 6.5% 15% 0% 15%;
+	text-shadow : Gray 5px 5px 5px;
+	font-size : 130%;
+	text-align : center;
+	}
+	
