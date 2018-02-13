@@ -1,0 +1,52 @@
+/*Accueil*/
+body{
+	background-image : url('../Fond tapis.jpg')
+}
+
+#titre_mahjong{
+	text-align : center;
+	font-family : Elephant;
+	font-size : 1000%;
+	color : #DC143C;
+	text-shadow : #FFFFFF 10px 10px 10px;
+	margin-top : 10%
+}
+
+#bouton1, #bouton2{
+	width : 20%;
+	line-height : 250%;
+	margin-left : 4%;
+	margin-right : 4%;
+	border-radius : 50px;
+	border-color : grey;
+	font-size : 400%
+}
+
+#boutons{
+	text-align : center
+}
+
+#bouton1:hover, #bouton2:hover{
+	background-color : #C0C0C0;
+	cursor : pointer
+}
+
+/*Connection*/
+#text_compte{
+	text-align : center;
+	font-size : 300%;
+	font-style : bold;
+	background-color : #EEE8AA;
+	color : #DC143C;
+	width : auto;
+	border-style : solid;
+	border-color : #DC143C;
+	padding : 1%
+}
+
+#form1, #form2{
+	background-color : white;
+	border-style : solid;
+	padding : 2%;
+	width : 15%
+}
