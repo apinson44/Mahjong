@@ -1,5 +1,5 @@
 /*Accueil*/
-#body_accueil, #body_connection{
+#body_accueil, #body_connection, #body_regles{
 	background-image : url('../Image/Fond.png');
 	background-size : cover
 }
@@ -35,7 +35,7 @@
 }
 
 /*Connection*/
-#text_compte{
+#texte_bandeau{
 	text-align : center;
 	font-size : 300%;
 	font-style : bold;
@@ -47,12 +47,29 @@
 	padding : 1%
 }
 
+#tableau{
+	width : 80%;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 5%;
+}
+
 #form1, #form2{
 	background-color : white;
 	border-style : solid;
 	padding : 2%;
-	width : 15%
+	width : 50%;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 0%
 }
+
+label{
+	display: block;
+	width: 40%;
+	float: left
+}
+
 
 #retour{
 	position: fixed; 
