@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS_Mahjong.css" />
 </head>
 
-<body>
+<body id="body_connection">
 	<p id="text_compte"> Pour jouer, connectez-vous ou créez votre compte. </p>
 	<h1> Connexion </h1>
 	<form id="form1" method="post" action="base_joueur.php">
@@ -39,7 +39,11 @@
 		<br><br>
 		<label for="cmdp"> Confirmation : </label>
 		<input type="password" name="cmdp" id="cmdp">
-	</form>	
+	</form>
+	
+	<a href="Accueil.html">
+		<input id="retour" type="image" value="Retour" src="../Image/Fleche retour.png" onclick="Accueil.html"/>
+	</a>
 </body>
 
 </html>
