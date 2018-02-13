@@ -35,7 +35,7 @@
 }
 
 /*Connection*/
-#text_compte{
+#text_compteq
 	text-align : center;
 	font-size : 300%;
 	font-style : bold;
@@ -63,4 +63,26 @@
 	border-style : solid;
 	border-color : #800000;
 	padding : 0.5%
+}
+	
+/* Titre*/
+
+h2{text-align: center;
+ color: black;
+ font-size : 40px ;
+ text-decoration:underline;}
+
+	
+/*Page Regles*/ 
+
+#Reg:first-letter {font-size: 35px;
+    color: #696969;}
+	
+#Reg{text-indent: 35px}
+
+#regle{text-indent: 35px}
+
+#body_regle {	
+	background-image : url('../Image/fondregle.png');
+	background-size : cover
 }
