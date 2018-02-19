@@ -11,29 +11,34 @@
 #titre_mahjong{
 	text-align : center;
 	font-family : Elephant;
-	font-size : 1000%;
+	font-size : 900%;
 	color : #800000;
-	text-shadow : black 10px 10px 10px;
-	margin-top : 10%
+	text-shadow : black 10px 10px 10px
 }
 
 #bouton1, #bouton2, #bouton3, #bouton4, #bouton5{
 	width : 20%;
-	line-height : 250%;
+	line-height : 280%;
 	margin-left : 4%;
 	margin-right : 4%;
 	border-radius : 50px;
 	border-color : grey;
-	font-size : 400%;
+	font-size : 300%;
 	color : #800000;
-	font-style : bold
+	font-style : bold;
+	text-decoration : none
 }
 
 #boutons, #boutons2{
 	text-align : center
 }
 
-#bouton1:hover, #bouton2:hover, #bouton3:hover, #bouton4:hover, #bouton5:hover, #retour:hover{
+a{
+	text-decoration : none
+}
+
+#bouton1:hover, #bouton2:hover, #bouton3:hover, #bouton4:hover, #bouton5:hover, #retour:hover, 
+#niv1:hover, #niv2:hover, #niv3:hover, #niv4:hover, #niv5:hover, #niv6:hover, #niv7:hover, #niv8:hover, #niv9:hover, #niv10:hover{
 	background-color : #C0C0C0;
 	cursor : pointer
 }
@@ -54,7 +59,6 @@
 	width : 80%;
 	margin-left : auto;
 	margin-right : auto;
-	margin-top : 5%;
 }
 
 #form1, #form2{
@@ -63,8 +67,7 @@
 	padding : 2%;
 	width : 50%;
 	margin-left : auto;
-	margin-right : auto;
-	margin-top : 0%
+	margin-right : auto
 }
 
 label{
@@ -93,9 +96,29 @@ label{
 	padding-left : 2%;
 	text-align : left;
 	line-height : 2;
-	font-size : 200%;
+	font-size : 150%;
 	background-color : #FFE4E1;
 	border-style : solid;
 	border-color : #800000;
 	border-radius : 50px
+}
+
+#tab_niveau{
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 7%;
+	width : 80%
+}
+
+#niv1, #niv2, #niv3, #niv4, #niv5, #niv6, #niv7, #niv8, #niv9, #niv10{
+	width : 10%;
+	line-height : 180%;
+	margin-left : 4%;
+	margin-right : 4%;
+	border-radius : 50px;
+	border-color : grey;
+	font-size : 350%;
+	color : #800000;
+	font-style : bold;
+	margin-bottom : 7%
 }
