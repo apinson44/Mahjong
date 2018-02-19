@@ -1,6 +1,10 @@
-/*Accueil*/
 #body_accueil, #body_connection, #body_regles, #body_accueil2{
 	background-image : url('../Image/Fond.png');
+	background-size : cover
+}
+
+#body_jeu{
+	background-image : url('../Image/Fond tapis.jpg');
 	background-size : cover
 }
 
@@ -34,7 +38,6 @@
 	cursor : pointer
 }
 
-/*Connection*/
 #texte_bandeau{
 	text-align : center;
 	font-size : 300%;
@@ -80,4 +83,19 @@ label{
 	border-style : solid;
 	border-color : #800000;
 	padding : 0.5%
+}
+
+#texte_regles{
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 3%;
+	padding-right : 2%;
+	padding-left : 2%;
+	text-align : left;
+	line-height : 2;
+	font-size : 200%;
+	background-color : #FFE4E1;
+	border-style : solid;
+	border-color : #800000;
+	border-radius : 50px
 }
