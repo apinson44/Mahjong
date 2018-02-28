@@ -12,13 +12,17 @@
 	<link rel="stylesheet" type="text/css" href="CSS_Mahjong.css" />
 </head>
 
-<body id="body_regles">
-	<!--Texte bandeau-->
-	<p id="texte_bandeau"> Visionnage des parties jouées </p>
-	
+<body id="body_jeu">
+	<!--Génération de la grille / Execution dans un autre fichier php-->
+	<div id="grille">
+	<?php
+		include("Generer_Grille.php");
+	?>
+	</div>
+
 	<!--Bouton retour vers la page profil-->
 	<a href="Profil.html">
-		<input id="retour" type="image" value="Retour" src="../Image/Fleche retour.png" onclick="Profil.html"/>
+		<input id="retour" type="image" value="Retour" src="../Image/Fleche retour.png" alt="Retour" onclick="Profil.html"/>
 	</a>
 </body>
 
